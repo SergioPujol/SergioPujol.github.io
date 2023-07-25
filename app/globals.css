@@ -8,7 +8,6 @@ body,
   height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
+section {
+  height: 500px;
 }

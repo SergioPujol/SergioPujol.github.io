@@ -14,15 +14,15 @@ module.exports = {
       },
       colors: {
         // Custom Background Colors
-        'bg-main': '#1b1b1b',
-        'bg-container': '#242424',
+        'bg-primary': '#1b2024',
+        'bg-secondary': '#242b35',
 
         // Custom Text Colors
-        't-primary': '#f7f7f7',
-        't-secondary': '#bcbcbc',
+        't-primary': '#ffffff',
+        't-secondary': '#686e75',
 
         // Custom Accent Color
-        'accent': '#5afece',
+        'accent': '#1064f5'//'#5afece',
       }
     },
   },

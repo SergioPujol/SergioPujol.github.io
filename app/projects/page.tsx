@@ -29,7 +29,7 @@ const Projects = () => {
   ]
 
   return (
-    <div className="h-full w-full bg-bg-main overflow-y-auto static flex">
+    <div className="h-full w-full bg-bg-primary overflow-y-auto static flex">
       <div className={`grid grid-cols-3 text-lg text-white ${activeProject ? 'w-3/4' : 'w-full'}`}> {/* all project containers */}
         {projects.map((project: ProjectInfo, index) => (
           <div 

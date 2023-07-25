@@ -8,25 +8,24 @@ const Menu = () => {
 
   return (
     <div className="
-        h-full
-        bg-bg-main
-        w-32
+        w-full
         text-t-primary
-        border-r-[0.5px]
-        border-t-secondary
+        bg-bg-primary
         flex
-        flex-col
+        px-10
+        h-20
+        fixed
     ">
-        <div className="flex h-24 items-center self-center">
+        <div className="flex items-center self-center gap-x-2 grow">
             <Image 
-                height={45}
-                width={45}
+                height={25}
+                width={25}
                 alt="pfp"
                 src={'/slogo.png'}
             />
+            <h1 className="">Sergio Pujol Martorell Dev</h1>
         </div>
         <MenuLinks />
-        <MenuFooter />
     </div>
   )
 }

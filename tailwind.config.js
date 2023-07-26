@@ -19,7 +19,7 @@ module.exports = {
 
         // Custom Text Colors
         't-primary': '#ffffff',
-        't-secondary': '#686e75',
+        't-secondary': '#9299a0',
 
         // Custom Accent Color
         'accent': '#1064f5'//'#5afece',

@@ -7,7 +7,8 @@ const MenuLinks = () => {
     const pathname = usePathname()
 
     const links = [
-        {name: 'About me', path: 'aboutme'},
+        {name: 'Home', path: 'home'},
+        {name: 'About', path: 'aboutme'},
         {name: 'My Skills', path: 'skills'},
         {name: 'Work', path: 'work'},
         {name: 'Projects', path: 'projects'},
@@ -23,12 +24,13 @@ const MenuLinks = () => {
                     activeClass='active'
                     spy={true}
                     smooth={true}
+                    offset={-75}
                     duration={500}
                     className={`${pathname == item.path ? 'text-accent' : ''} py-2 text-center hover:text-accent cursor-pointer`}>
                     {item.name}
                 </Link>
             ))}
-            <div>MENU LINKS?</div>
+            <div>?</div>
         </div>
     )
 }

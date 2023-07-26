@@ -16,14 +16,14 @@ const Menu = () => {
         h-20
         fixed
     ">
-        <div className="flex items-center self-center gap-x-2 grow">
+        <div className="flex items-center self-center gap-x-3 grow">
             <Image 
                 height={25}
                 width={25}
                 alt="pfp"
                 src={'/slogo.png'}
             />
-            <h1 className="">Sergio Pujol Martorell Dev</h1>
+            <h1 className="text-lg">Developer SPM</h1>
         </div>
         <MenuLinks />
     </div>

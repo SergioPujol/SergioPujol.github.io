@@ -1,8 +1,8 @@
 import AboutMe from './sections/AboutMe'
-import Skills from './sections/skills'
-import Projects from './sections/projects'
 import HomeSection from './sections/HomeSection'
-import Work from './sections/work'
+import Projects from './sections/Projects'
+import Skills from './sections/Skills'
+import Work from './sections/Work'
 
 export default function Home() {
   return (

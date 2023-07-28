@@ -1,6 +1,7 @@
-import { Link, animateScroll } from 'react-scroll'
 import { usePathname } from "next/navigation"
 import React from 'react'
+import ScrollLink from "./ScrollLink"
+import Button from "./Button"
 
 const MenuLinks = () => {
 
@@ -18,19 +19,15 @@ const MenuLinks = () => {
     return (
         <div className="flex justify-center items-center text-sm gap-x-4 right">
             {links.map((item) => (
-                <Link
-                    key={item.name}
+                <ScrollLink
                     to={item.path}
-                    activeClass='active'
-                    spy={true}
-                    smooth={true}
-                    offset={-75}
-                    duration={500}
-                    className={`${pathname == item.path ? 'text-accent' : ''} py-2 text-center hover:text-accent cursor-pointer`}>
-                    {item.name}
-                </Link>
+                    key={item.path}
+                    link={true}
+                    //activeClass='text-accent'
+                    title={item.name}
+                    className={`${pathname == item.path ? 'text-accent' : ''} py-2 text-center hover:text-accent cursor-pointer`} />
             ))}
-            <div>?</div>
+            <Button onClickEvent={() => { console.log('test') }} title="test"></Button>
         </div>
     )
 }

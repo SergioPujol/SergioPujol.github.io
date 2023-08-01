@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { IconType } from 'react-icons';
 
-interface IconLinkProps {
+export interface IconLinkProps {
     href: any
     icon: IconType
 }

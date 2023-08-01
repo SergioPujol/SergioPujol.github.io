@@ -9,7 +9,6 @@ export default function Home() {
     <main className="w-full bg-bg-primary text-t-primary flex flex-col">
       <HomeSection />
       <AboutMe />
-      <Skills />
       <Work />
       <Projects />
     </main>

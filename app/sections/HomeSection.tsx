@@ -1,6 +1,5 @@
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import IconLink from '../components/IconLink'
 import ScrollLink from '../components/ScrollLink'
 import Anchor from '../components/Anchor'
 

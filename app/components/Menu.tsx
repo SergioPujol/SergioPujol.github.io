@@ -19,7 +19,7 @@ const Menu = () => {
             <Image 
                 height={35}
                 width={35}
-                alt="pfp"
+                alt="logo"
                 src={'/slogo.png'}
             />
         </div>

@@ -1,7 +1,6 @@
 import AboutMe from './sections/AboutMe'
 import HomeSection from './sections/HomeSection'
 import Projects from './sections/Projects'
-import Skills from './sections/Skills'
 import Work from './sections/Work'
 
 export default function Home() {

@@ -31,6 +31,30 @@ const Projects = () => {
       image: 'InDreams.png',
       techs: ['C#', 'Unity'],
       links: [{ href: 'https://do-videogames.webs.upv.es/juegos/in-dreams/', icon: FiExternalLink }],
+    },{
+      title: 'Lets Lock',
+      description: '',
+      image: 'LetsLock.png',
+      techs: ['Java', 'C++', 'Arduino'],
+      links: [{ href: 'https://github.com/SergioPujol/LetsLock', icon: FiGithub }],
+    },{
+      title: 'Track Air',
+      description: '',
+      image: 'TrackAir.png',
+      techs: ['Java', 'Javascript', 'C++', 'Arduino', 'HTML/CSS'],
+      links: [{ href: 'https://github.com/SergioPujol/TrackAir', icon: FiGithub }],
+    },{
+      title: 'Rito',
+      description: '',
+      image: 'Rito.png',
+      techs: ['Python', 'CMake', 'ROS', 'JavaScript', 'HTMl/CSS'],
+      links: [{ href: 'https://github.com/SergioPujol/rito', icon: FiGithub }],
+    },{
+      title: '[margaritaSL]',
+      description: '',
+      image: 'WebSL.png',
+      techs: [],
+      links: [{ href: '', icon: FiExternalLink }],
     }
     
 

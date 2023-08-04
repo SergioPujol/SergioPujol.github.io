@@ -11,7 +11,7 @@ const MenuLinks = () => {
     const links = [
         {name: 'Home', path: 'home'},
         {name: 'About', path: 'aboutme'},
-        {name: 'Work', path: 'work'},
+        {name: 'Experience', path: 'work'},
         {name: 'Projects', path: 'projects'},
         {name: 'Contact', path: 'contact'}
     ]

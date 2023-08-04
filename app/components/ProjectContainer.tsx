@@ -36,8 +36,8 @@ const ProjectContainer: React.FC<ProjectProps> = ({
         <div className={`absolute top-0 left-0 w-full h-full bg-bg-secondary ${showInfo ? 'opacity-0' : 'opacity-30'} transition-all duration-500`}></div> {/* Background cover */}
         
         <div className={`absolute top-[10%] left-0 w-full h-4/5 text-center flex flex-col`}> {/* Line dividers */}
-            <div className={`absolute w-12 h-[1px] bg-white left-0 right-0 top-0 mx-auto ${showInfo ? 'scale-x-150 opacity-100' : 'opacity-30'} transition-transform duration-500`}></div>
-            <div className={`absolute w-12 h-[1px] bg-white left-0 right-0 bottom-0 mx-auto ${showInfo ? 'scale-x-150 opacity-100' : 'opacity-30'} transition-transform duration-500`}></div>
+            <div className={`absolute w-12 h-[2px] rounded-md bg-white left-0 right-0 top-0 mx-auto ${showInfo ? 'scale-x-150 opacity-100' : 'opacity-30'} transition-transform duration-500`}></div>
+            <div className={`absolute w-12 h-[2px] rounded-md bg-white left-0 right-0 bottom-0 mx-auto ${showInfo ? 'scale-x-150 opacity-100' : 'opacity-30'} transition-transform duration-500`}></div>
         </div>
                 
         <div className={`${showInfo ? '-translate-y-3/4' : 'translate-y-0'} duration-500 flex absolute top-3/4 left-0 w-full items-center justify-center`}>

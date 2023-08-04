@@ -17,7 +17,7 @@ const ExperienceContainer: React.FC<ExperienceProps> = ({
 
   return (
     <div className={`flex flex-col xl:flex-row m-2 min-h-[260px] xl:h-64 p-4 rounded-md ${isOpen ? 'xl:w-3/5 bg-accent/10' : 'xl:w-1/5'} transition-all duration-1000 cursor-pointer overflow-hidden hover:bg-accent/10`} onClick={onClickEvent}>
-        <div className={`xl:first-letter:min-w-[200px] grow flex flex-col gap-y-3 items-center justify-center`}>
+        <div className={`xl:min-w-[200px] grow flex flex-col gap-y-3 items-center justify-center`}>
             <span className='text-t-primary text-2xl text-center'>{company}</span>
             <span className='text-t-secondary text-xl text-center'>{position}</span>
             <span className='text-t-secondary text-md'>{period}</span>

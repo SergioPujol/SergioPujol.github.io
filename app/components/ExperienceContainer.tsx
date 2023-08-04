@@ -16,13 +16,13 @@ const ExperienceContainer: React.FC<ExperienceProps> = ({
     const { company, position, period, techs } = mainInfo;
 
   return (
-    <div className={`flex m-2 h-64 rounded-md ${isOpen ? 'w-3/5 bg-accent/10' : 'w-1/5'} transition-all duration-500 cursor-pointer overflow-hidden hover:bg-accent/10`} onClick={onClickEvent}>
-        <div className={`min-w-[200px] grow flex flex-col gap-y-3 items-center justify-center`}>
+    <div className={`flex flex-col xl:flex-row m-2 min-h-[260px] xl:h-64 p-4 rounded-md ${isOpen ? 'xl:w-3/5 bg-accent/10' : 'xl:w-1/5'} transition-all duration-1000 cursor-pointer overflow-hidden hover:bg-accent/10`} onClick={onClickEvent}>
+        <div className={`xl:first-letter:min-w-[200px] grow flex flex-col gap-y-3 items-center justify-center`}>
             <span className='text-t-primary text-2xl text-center'>{company}</span>
             <span className='text-t-secondary text-xl text-center'>{position}</span>
             <span className='text-t-secondary text-md'>{period}</span>
         </div>
-        <div className={`${isOpen ? 'flex' : 'hidden'} w-2/3 p-4 flex flex-col gap-y-5 justify-center`}>
+        <div className={`${isOpen ? 'flex' : 'hidden'} xl:min-w-[400px] xl:w-2/3 p-4 flex flex-col gap-y-5 justify-center`}>
             <ul className={`experience-list flex flex-col gap-y-3`}>
                 {description.map((point: string) => (
                     <li className='pl-8 relative'>{point}</li>

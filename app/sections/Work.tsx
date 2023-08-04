@@ -26,8 +26,8 @@ const Work = () => {
 
   return (
     <section id='work' className='flex flex-col py-24'>
-      <SectionTitle title='Experience' />
-      <div className='w-full flex py-12'>
+      <SectionTitle title='Work' />
+      <div className='w-full flex flex-col xl:flex-row py-12'>
         <ExperienceContainer {...infovistaElements} isOpen={selectedExperience === 'infovista'} onClickEvent={() => handleExperienceChange('infovista')}/>        
         <ExperienceContainer {...ktoolsElements} isOpen={selectedExperience === 'ktools'} onClickEvent={() => handleExperienceChange('ktools')}/>
         <ExperienceContainer {...astryElements} isOpen={selectedExperience === 'astry'} onClickEvent={() => handleExperienceChange('astry')}/>

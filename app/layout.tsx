@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <Menu />
         <LinksNav />
-        <div className='px-32'>{children}</div>
+        <div className='px-24 lg:px-32'>{children}</div>
       </body>
     </html>
   )

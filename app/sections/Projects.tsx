@@ -8,25 +8,38 @@ const Projects = () => {
 
   const projects: Array<ProjectProps> = [
     {
-      title: 'test1',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur hic sapiente corrupti. Autem asperiores repellat ipsum repellendus sint sit illum consequuntur',
-      image: 'candlv.png',
-      techs: ['Node.js', 'Angular', 'HTML'],
-      links: [{ href: 'test', icon: FiGithub }, { href: 'test2', icon: FiExternalLink }],
+      title: 'CandlV App',
+      description: '',
+      image: 'CandlV_App.png',
+      techs: ['JavaScript', 'Node.js', 'Electron', 'HTML/CSS', 'Typescript', 'MongoDB', 'Mongoose'],
+      links: [{ href: 'https://github.com/SergioPujol/CandlV-App', icon: FiGithub }]
     },{
-      title: 'test2',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur hic sapiente corrupti. Autem asperiores repellat ipsum repellendus sint sit illum consequuntur',
-      image: 'candlv.png',
-      techs: ['Node.js', 'Angular', 'HTML'],
-      links: [],
+      title: 'CandlV Web',
+      description: '',
+      image: 'CandlV_Web.png',
+      techs: ['JavaScript', 'Node.js', 'HTML/CSS', 'Typescript', 'MongoDB', 'Mongoose'],
+      links: [{ href: 'https://github.com/SergioPujol/CandlV-Web', icon: FiGithub }]
+    },{
+      title: 'NextJS Auth Template',
+      description: '',
+      image: 'NextAuthTemplate.png',
+      techs: ['NextJS', 'React', 'TypeScript', 'PostgreSQL', 'MongoDB'],
+      links: [{ href: 'https://github.com/SergioPujol/nextjs-auth-routing', icon: FiGithub }, { href: 'https://github.com/SergioPujol/nextjs-auth-navbar', icon: FiGithub }],
+    },{
+      title: 'In Dreams Videogame',
+      description: '',
+      image: 'InDreams.png',
+      techs: ['C#', 'Unity'],
+      links: [{ href: 'https://do-videogames.webs.upv.es/juegos/in-dreams/', icon: FiExternalLink }],
     }
+    
 
   ]
 
   return (
     <section id='projects' className='flex flex-col py-24'>
       <SectionTitle title='Projects' />
-      <div className='grid grid-cols-3 gap-y-7 py-12'>
+      <div className='grid lg:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-y-7 py-12'>
         {projects.map((project: ProjectProps) => (
           <ProjectContainer key={project.title} {...project} />
         ))}

@@ -11,10 +11,6 @@ body,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-section {
-  scroll-margin-top: 5rem;
-}
-
 .links-nav::after {
   content: "";
   display: block;
@@ -28,17 +24,23 @@ section {
   content: "•";
   position: absolute;
   left: 0px;
-  color: #5EEAD4;
+  color: #5ef1db;
 }
 
 .section-title:after {
   content: "";
   display: block;
   position: relative;
-  width: 300px;
+  width: 200px;
   height: 1px;
   margin-left: 20px;
   background-color: #9299a0;
+}
+
+@media (min-width: 1024px) {
+  .section-title:after {
+    width: 300px;
+  }
 }
 
 ul li a {
@@ -46,7 +48,7 @@ ul li a {
 }
 
 a.anchor {
-  background-image: linear-gradient(#5EEAD4 0 0);
+  background-image: linear-gradient(#5ef1db 0 0);
   background-position: 0 100%;
   background-size: 0% 1px;
   background-repeat: no-repeat;

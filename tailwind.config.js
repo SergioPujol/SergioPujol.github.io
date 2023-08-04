@@ -22,7 +22,7 @@ module.exports = {
         't-secondary': '#9299a0',
 
         // Custom Accent Color
-        'accent': '#5EEAD4'//'#5afece',
+        'accent': '#5ef1db'
       }
     },
   },

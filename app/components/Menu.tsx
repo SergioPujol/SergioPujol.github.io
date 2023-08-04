@@ -8,7 +8,6 @@ const Menu = () => {
     <header className="
         w-full
         text-t-primary
-        bg-bg-primary
         flex
         px-10
         h-24

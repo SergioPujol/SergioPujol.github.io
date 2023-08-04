@@ -9,7 +9,7 @@ export interface IconLinkProps {
 
 const IconLink: React.FC<IconLinkProps> = ({ href, icon: Icon }) => {
   return (
-    <Link href={href} target='_blank' className='transition-all duration-500 hover:-translate-y-[3px] hover:text-accent p-2'><Icon size={20} /></Link>
+    <Link href={href} target='_blank' className='transition-all duration-1000 hover:-translate-y-[3px] hover:text-accent p-2'><Icon size={20} /></Link>
   )
 }
 

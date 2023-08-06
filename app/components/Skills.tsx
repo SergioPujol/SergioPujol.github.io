@@ -39,7 +39,7 @@ const Skills = () => {
         <div className={`flex grow items-center`}>
             <ul className='flex flex-wrap gap-x-8 gap-y-4 justify-center'>
                 { mainTechs.map((language: Language) => (
-                    <li className='flex flex-col gap-y-2 items-center'>
+                    <li className='flex flex-col gap-y-2 items-center' key={language.title}>
                         <language.icon className='text-accent' size={70} />
                         <span className='text-sm'>{language.title}</span>
                     </li>

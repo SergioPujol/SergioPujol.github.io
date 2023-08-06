@@ -24,12 +24,12 @@ const ExperienceContainer: React.FC<ExperienceProps> = ({
         <div className={`${isOpen ? 'flex' : 'hidden'} xl:min-w-[400px] xl:w-2/3 p-4 flex flex-col gap-y-5 justify-center`}>
             <ul className={`experience-list flex flex-col gap-y-3`}>
                 {description.map((point: string) => (
-                    <li className='pl-8 relative'>{point}</li>
+                    <li key={point} className='pl-8 relative'>{point}</li>
                 ))}
             </ul>
             <ul className={`flex flex-wrap gap-x-2 gap-y-4 text-sm justify-center`}>
                 {techs.map((tech: string) => (
-                    <li><LanguageContainer title={tech}/></li>
+                    <li key={tech}><LanguageContainer title={tech}/></li>
                 ))}
             </ul>
         </div>

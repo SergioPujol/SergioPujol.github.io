@@ -46,7 +46,7 @@ const ProjectContainer: React.FC<ProjectProps> = ({
                 <div className={`${showInfo ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500 flex flex-col items-center gap-y-3`}>
                     {<ul className={`flex flex-wrap gap-x-2 gap-y-4 text-sm justify-center rounded-xl`}>
                         {techs.map((tech: string) => (
-                            <li><LanguageContainer title={tech}/></li>
+                            <li key={tech}><LanguageContainer title={tech}/></li>
                         ))}
                     </ul>}
                     <ul className={`flex list-none text-t-secondary`}>

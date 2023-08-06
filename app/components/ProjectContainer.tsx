@@ -6,14 +6,13 @@ import LanguageContainer from './LanguageContainer';
 
 export interface ProjectProps {
     title: string
-    description: string
     image: string
     techs: Array<string>
     links: Array<IconLinkProps>
 }
 
 const ProjectContainer: React.FC<ProjectProps> = ({
-    title, description, image, techs, links
+    title, image, techs, links
 }) => {
 
     const [showInfo, setShowInfo] = useState<boolean>(false);

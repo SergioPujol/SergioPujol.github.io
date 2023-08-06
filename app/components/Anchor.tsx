@@ -7,7 +7,7 @@ interface AnchorProps {
 
 const Anchor: React.FC<AnchorProps> = ({ link, title }) => {
   return (
-    <a href={link} className="text-accent anchor">
+    <a href={link} target='_blank' className="text-accent anchor">
         {title}
     </a>
   )

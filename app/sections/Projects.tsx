@@ -26,22 +26,16 @@ const Projects = () => {
       techs: ['NextJS', 'React', 'TypeScript', 'PostgreSQL', 'MongoDB'],
       links: [{ href: 'https://github.com/SergioPujol/nextjs-auth-routing', icon: FiGithub }, { href: 'https://github.com/SergioPujol/nextjs-auth-navbar', icon: FiGithub }],
     },{
-      title: 'In Dreams Videogame',
-      description: '',
-      image: 'InDreams.png',
-      techs: ['C#', 'Unity'],
-      links: [{ href: 'https://do-videogames.webs.upv.es/juegos/in-dreams/', icon: FiExternalLink }],
-    },{
       title: 'Lets Lock',
       description: '',
       image: 'LetsLock.png',
-      techs: ['Java', 'C++', 'Arduino'],
+      techs: ['Java', 'C++', 'Arduino', 'NoSQL'],
       links: [{ href: 'https://github.com/SergioPujol/LetsLock', icon: FiGithub }],
     },{
       title: 'Track Air',
       description: '',
       image: 'TrackAir.png',
-      techs: ['Java', 'Javascript', 'C++', 'Arduino', 'HTML/CSS'],
+      techs: ['Java', 'Javascript', 'C++', 'Arduino', 'HTML/CSS', 'SQL'],
       links: [{ href: 'https://github.com/SergioPujol/TrackAir', icon: FiGithub }],
     },{
       title: 'Rito',
@@ -53,7 +47,19 @@ const Projects = () => {
       title: '[margaritaSL]',
       description: '',
       image: 'WebSL.png',
-      techs: [],
+      techs: ['Javascript', 'HTML/CSS', 'PHP', 'MySQL'],
+      links: [{ href: '', icon: FiExternalLink }],
+    },{
+      title: 'In Dreams Videogame',
+      description: '',
+      image: 'InDreams.png',
+      techs: ['C#', 'Unity'],
+      links: [{ href: 'https://do-videogames.webs.upv.es/juegos/in-dreams/', icon: FiExternalLink }],
+    },{
+      title: 'UMMO',
+      description: '',
+      image: 'UMMO.png',
+      techs: ['C#', 'Unity'],
       links: [{ href: '', icon: FiExternalLink }],
     }
     

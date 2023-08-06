@@ -13,7 +13,7 @@ const HomeSection = () => {
         <span className='font-semibold text-md text-accent'>Hi, I'm</span>
         <span className='font-bold text-5xl text-t-primary'>Sergio Pujol Martorell</span>
         <span className='font-semibold text-3xl text-t-secondary'>Full-Stack Developer</span>
-        <div className='w-1/3 mt-4 flex'><ScrollLink to={'aboutme'} title='Read about me' link={false} /></div>       
+        <div className='w-full md:w-1/3 mt-4 flex'><ScrollLink to={'aboutme'} title='Read about me' link={false} /></div>       
       </div>
     </section>
   )

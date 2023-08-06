@@ -41,7 +41,7 @@ const ProjectContainer: React.FC<ProjectProps> = ({
         </div>
                 
         <div className={`${showInfo ? '-translate-y-3/4' : 'translate-y-0'} duration-500 flex absolute top-3/4 left-0 w-full items-center justify-center`}>
-            <div className={`${showInfo ? 'bg-bg-secondary/80' : ''} flex flex-col rounded-lg items-center gap-y-4 p-5 pb-3 text-center`}>
+            <div className={`${showInfo ? 'bg-bg-secondary/80' : ''} flex flex-col rounded-lg items-center gap-y-4 p-5 pb-3 text-center mx-3`}>
                 <span className={`text-t-primary text-2xl font-semibold`}>{title}</span>
                 <div className={`${showInfo ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500 flex flex-col items-center gap-y-3`}>
                     {<ul className={`flex flex-wrap gap-x-2 gap-y-4 text-sm justify-center rounded-xl`}>

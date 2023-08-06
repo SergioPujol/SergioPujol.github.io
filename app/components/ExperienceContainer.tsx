@@ -12,7 +12,6 @@ const ExperienceContainer: React.FC<ExperienceProps> = ({
     mainInfo, description, onClickEvent, isOpen
 }) => {
 
-
     const { company, position, period, techs } = mainInfo;
 
   return (

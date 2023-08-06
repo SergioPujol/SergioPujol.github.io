@@ -7,8 +7,13 @@ const Work = () => {
 
   const [selectedExperience, setSelectedExperience] = useState('infovista');
 
-  const handleExperienceChange = (experiencePeriod: string) => {
+  const handleExperienceChange = (event: any, experiencePeriod: string) => {
     setSelectedExperience(experiencePeriod);
+
+    const containerElement = event.currentTarget;
+    if (containerElement) {
+      containerElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 
   const infovistaElements = {
@@ -28,9 +33,9 @@ const Work = () => {
     <section id='work' className='flex flex-col py-24'>
       <SectionTitle title='Experience' />
       <div className='w-full flex flex-col xl:flex-row py-12'>
-        <ExperienceContainer {...infovistaElements} isOpen={selectedExperience === 'infovista'} onClickEvent={() => handleExperienceChange('infovista')}/>        
-        <ExperienceContainer {...ktoolsElements} isOpen={selectedExperience === 'ktools'} onClickEvent={() => handleExperienceChange('ktools')}/>
-        <ExperienceContainer {...astryElements} isOpen={selectedExperience === 'astry'} onClickEvent={() => handleExperienceChange('astry')}/>
+        <ExperienceContainer {...infovistaElements} isOpen={selectedExperience === 'infovista'} onClickEvent={(e: any) => handleExperienceChange(e, 'infovista')}/>        
+        <ExperienceContainer {...ktoolsElements} isOpen={selectedExperience === 'ktools'} onClickEvent={(e: any) => handleExperienceChange(e, 'ktools')}/>
+        <ExperienceContainer {...astryElements} isOpen={selectedExperience === 'astry'} onClickEvent={(e: any) => handleExperienceChange(e, 'astry')}/>
       </div>
     </section>
   )

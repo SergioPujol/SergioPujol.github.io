@@ -22,9 +22,10 @@ const AboutMe = () => {
       <SectionTitle title='About Me' />
       <div className='w-full flex flex-col py-12'>
         <div className='flex lg:flex-row flex-col gap-y-16'>
-          <div className='grow flex flex-col gap-y-4 mr-8 text-justify'>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, quaerat architecto similique sunt perferendis itaque distinctio nulla obcaecati quo nemo fugit repudiandae autem ipsum fuga nobis? Quia perspiciatis maiores aliquam!</span>
-            <span>Lorem ipsum dolor, <Anchor title='test' link='test'/> sit amet consectetur adipisicing elit. Minima cum sequi quisquam amet magnam atque laboriosam, commodi corrupti, reprehenderit eius quam exercitationem mollitia numquam suscipit velit placeat dicta sapiente necessitatibus.</span>
+          <div className='grow flex flex-col gap-y-4 mr-8 text-t-secondary'>
+            <span>Hey there, I'm Sergio Pujol, a passionate Software Developer with over 3 years of experience in shaping innovative digital solutions. My journey has guided me through the complexities of web development, covering both front-end and back-end realms.</span>
+            <span>My most recent adventure took place at <Anchor title='Infovista' link='https://www.infovista.com/'/> in Italy, stepping beyond my home country for a rewarding experience. This chapter has sparked my interest in pursuing similar adventures in my next role.</span>
+            <span>Feel free to <Anchor title='reach out' link='mailto:sergiopujolmartorell@gmail.com'/> if you'd like to get in touch with me. I look forward to new horizons and exciting possibilities.</span>
           </div>
           <div className='flex items-center justify-center'>
             <div className='relative rounded-md bg-cover bg-[url("/pfp.jpeg")] w-80 h-80'>

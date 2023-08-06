@@ -31,7 +31,7 @@ const MobileMenuAside: React.FC<MobileMenuAsideProps> = ({ isOpen, onClose, link
                         className={`${pathname == item.path ? 'text-accent' : ''} py-2 text-center hover:text-accent cursor-pointer`} />
                 ))}
                 <Button>
-                    <Link href={'/cv.pdf'} target="_blank">
+                    <Link href={'/CV.pdf'} target="_blank">
                         Resume
                     </Link>
                 </Button>
@@ -90,7 +90,7 @@ const MenuLinks = () => {
                         className={`${pathname == item.path ? 'text-accent' : ''} py-2 text-center hover:text-accent cursor-pointer`} />
                 ))}
                 <Button>
-                    <Link href={'/cv.pdf'} target="_blank">
+                    <Link href={'/CV.pdf'} target="_blank">
                         Resume
                     </Link>
                 </Button>

@@ -28,7 +28,7 @@ const Menu = () => {
         h-24
         fixed
         z-10
-        ${isOnHomeSection ? 'bg-transparent' : 'bg-bg-primary shadow-[0_10px_30px_-10px_rgba(36,43,53,0.6)]'}
+        ${isOnHomeSection ? 'bg-transparent' : 'bg-bg-primary shadow-md'}
     `}>
         <div className="flex items-center self-center gap-x-3 grow">
             <Image 

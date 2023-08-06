@@ -1,19 +1,8 @@
 'use client';
 import React, { useState } from 'react'
 import SectionTitle from '../components/SectionTitle'
-import Image from 'next/image';
 import Anchor from '../components/Anchor';
-import { IconType } from 'react-icons';
-import { FaAngular, FaNodeJs, FaReact, FaFolder, FaHtml5 } from 'react-icons/fa';
-import { BiLogoTypescript, BiLogoJavascript } from 'react-icons/bi'
-import { MdArrowDropDown, MdArrowDropUp } from 'react-icons/md'
-import Button from '../components/Button';
 import Skills from '../components/Skills';
-
-interface Language {
-  title: string
-  icon: IconType
-}
 
 const AboutMe = () => {
 

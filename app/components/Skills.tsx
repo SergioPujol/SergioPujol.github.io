@@ -47,7 +47,7 @@ const Skills = () => {
             </ul>
         </div>
         <div className={`overflow-hidden transition-all duration-1000 border-t-[1px] border-accent ${showOthers ? 'max-h-full pt-8 mt-8' : 'max-h-0 opacity-0'}`}>
-            <ul className='flex flex-wrap gap-x-8 justify-center'>
+            <ul className='flex flex-wrap gap-x-8 gap-y-4 justify-center'>
                 { otherTechs.map((language: Language) => (
                     <li className='flex flex-col gap-y-2 items-center' key={language.title}>
                         <language.icon className='text-accent' size={70} />

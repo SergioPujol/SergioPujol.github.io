@@ -18,7 +18,7 @@ const MobileMenuAside: React.FC<MobileMenuAsideProps> = ({ isOpen, onClose, link
 
     return (
         <aside className={`sm:hidden fixed inset-y-0 right-0 ${isOpen ? 'translate-x-0' : 'translate-x-full'} bg-bg-secondary w-3/4 max-w-[400px] z-20 px-10 transition-all duration-500`}>
-            <div className="flex justify-end h-24 items-center hover:text-accent">
+            <div className="flex justify-end py-3 items-center hover:text-accent">
                 <IoMdClose size={40} onClick={onClose}/>
             </div>
             <div className="flex flex-col gap-y-4">

@@ -25,7 +25,8 @@ const Menu = () => {
         text-t-primary
         flex
         px-10
-        h-24
+        py-3
+        sm:py-6
         fixed
         z-10
         ${isOnHomeSection ? 'bg-transparent' : 'bg-bg-primary shadow-md'}

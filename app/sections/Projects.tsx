@@ -25,7 +25,7 @@ const Projects = () => {
       links: [{ href: 'https://github.com/SergioPujol/nextjs-auth-routing', icon: FiGithub }, { href: 'https://github.com/SergioPujol/nextjs-auth-navbar', icon: FiGithub }],
     },{
       title: 'Lets Lock',
-      image: 'LetsLock.png',
+      image: 'LetsLock_temp.png',
       techs: ['Java', 'C++', 'Arduino', 'NoSQL'],
       links: [{ href: 'https://github.com/SergioPujol/LetsLock', icon: FiGithub }],
     },{

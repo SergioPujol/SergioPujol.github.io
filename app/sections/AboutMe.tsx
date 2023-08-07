@@ -18,7 +18,7 @@ const AboutMe = () => {
           </div>
           <div className='flex items-center justify-center'>
             <div className='relative rounded-md bg-cover bg-[url("/pfp.jpeg")] w-80 h-80'>
-              <div className="absolute rounded-md top-0 left-0 w-full h-full bg-accent/30 hover:bg-transparent transition-all duration-500"></div>
+              {/*<div className="absolute rounded-md top-0 left-0 w-full h-full bg-accent/30 hover:bg-transparent transition-all duration-500"></div>*/}
             </div>
           </div>
         </div>

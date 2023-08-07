@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='flex flex-col p-6 items-center'>
         <LinksNav footer={true}/>
-        <Anchor title='Designed & Build by Sergio Pujol Martorell' link='https://github.com/SergioPujol/Portfolio-Web'></Anchor>
+        <Anchor title='Designed & Build by Sergio Pujol Martorell' link='https://github.com/SergioPujol/sergiopujol.github.io'></Anchor>
     </div>
   )
 }

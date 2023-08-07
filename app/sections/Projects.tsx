@@ -30,7 +30,7 @@ const Projects = () => {
       links: [{ href: 'https://github.com/SergioPujol/LetsLock', icon: FiGithub }],
     },{
       title: 'Track Air',
-      image: 'TrackAir.png',
+      image: 'TrackAir_temp.png',
       techs: ['Java', 'Javascript', 'C++', 'Arduino', 'HTML/CSS', 'SQL'],
       links: [{ href: 'https://github.com/SergioPujol/TrackAir', icon: FiGithub }],
     },{
